@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id" : "heroes/heroes.schema.json",
+  "title": "Heroes",
+  "description": "A collection of Websites",
+  "type": "array",
+  "items": { "$ref": "hero.schema.json", "description": "A hero" }
+}
