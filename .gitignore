@@ -16,3 +16,7 @@ generated/
 2.3/
 out.txt
 stdout
+*.lock
+*.bin
+*.jar
+*.class
