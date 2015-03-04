@@ -11,6 +11,7 @@ class Hero {
   Boolean immortal
 
   static mapping = {
+    table('heroes')
     id generator: 'uuid2'
   }
 
